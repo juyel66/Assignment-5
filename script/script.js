@@ -1,3 +1,5 @@
+// button click then scroll buyTicket
+
 function buyTicket() {
 
     const phSection = document.getElementById('paribahan');
@@ -60,7 +62,11 @@ function applyCupon() {
     
     const grandTotal=document.getElementById('grand-total');
     const inputAndButton=document.getElementById('input-and-button');
-    // console.log(inputCupon.value);
+   
+
+
+
+
     if(inputCupon.value === 'NEW15'){
         discount=document.getElementById('total-price').innerText*0.15;
         grandTotalPrice=document.getElementById('total-price').innerText-discount;
