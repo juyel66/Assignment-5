@@ -1,12 +1,12 @@
 function buyTicket() {
 
-    const phSection = document.getElementById('ph');
+    const phSection = document.getElementById('paribahan');
     phSection.scrollIntoView({ behavior: 'smooth' });
 
 }
 
 let selectedSeat = 0;
-let seatLeft = 8;
+let seatLeft = 40;
 const maxSeat = 4;
 const perTicketPrice = 550;
 const seats = document.getElementsByClassName('seat');
