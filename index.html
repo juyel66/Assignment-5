@@ -249,7 +249,7 @@
                     <!-- driver -->
                     <div class="flex justify-end">
 
-                        <button class="btn mb-6 bg-[#030712] bg-opacity-10"><img src="images/Vector.png "
+                        <button class="btn mb-6 bg-[#030712] bg-opacity-10"><img src="images/tabler-icon-steering-wheel.svg "
                                 alt=""></button>
 
                     </div>
@@ -425,7 +425,7 @@
 
 
 
-                <!-- payment -->
+                <!-- payment section  -->
 
                 <div class="lg:flex-1">
 
@@ -458,23 +458,20 @@
                                 <h2 class="text-lg font-medium">BDT <span id="total-price">0000</span></h2>
                             </div>
 
-                            <!-- cuppon input field -->
+                            <!-- coupon input field -->
 
                             <div>
-                                <!-- <label id="input-and-button"
-                                class=" input input-bordered flex items-center justify-between gap-2 mt-5">
+                                <label id="input-and-button"
+                                class=" input input-bordered flex items-center justify-between gap- mt-5">
                                 <input id="input-Cupon" type="text" class="grow" placeholder="Have any coupon?" />
-                                <button onclick="applyCupon()" id="cuppon-apply"
-                                    class="btn text-white text-lg font-semibold bg-[#1DD100] w-[100px] rounded-lg ">Apply</button>
-                            </label> -->
+                                <!-- <button onclick="applyCupon()" id="cuppon-apply"
+                                    class="btn text-white text-lg font-semibold bg-[#1DD100] w-[100px] rounded-lg ">Apply</button> -->
+
+                                    <button onclick="applyCupon()" class="btn join-item lg:w-[100px] bg-green-500 text-white rounded-r-full">Apply</button>
 
 
+                            </label>
 
-
-                            <div class="join ">
-                                <input class="input input-bordered join-item" placeholder="text"/>
-                                <button class="btn join-item bg-green-500 text-white rounded-r-full">Apply</button>
-                              </div>
 
 
 
@@ -482,7 +479,7 @@
 
                             <div class="flex justify-between my-5 ">
                                 <h2 class="text-lg font-medium">Grand Total</h2>
-                                <h2 class="text-lg font-medium">BDT <span id="grand-total">0000</span></h2>
+                                <h2 class="text-lg font-medium">BDT <span id="grand-total">0</span></h2>
                             </div>
                             </div>
 
@@ -518,7 +515,7 @@
 
 
                             <!-- modal section  -->
-                            <div class="hidden">
+                            <div class="">
                                 <button class="btn w-full text-2xl font-extrabold text-white bg-[#1DD100] rounded-2xl	mb-5"
                                 onclick="my_modal_5.showModal()">Next</button>
                             <dialog id="my_modal_5" class="modal modal-bottom rounded-xl sm:modal-middle ">
@@ -577,7 +574,18 @@
 
 
 
-    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    </footer> 
 
     <script src="script/script.js"></script>
 
