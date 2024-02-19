@@ -21,5 +21,9 @@ function buyTicket(){
     scrollButtonToBuyTicketSection.scrollIntoView({ behavior: 'smooth'});
 }
 
+// scroll bar section end 
+
+
+
 
 

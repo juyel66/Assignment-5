@@ -8,6 +8,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    
 
 </head>
 
@@ -263,7 +264,7 @@
 
                     <div class="flex  items-center lg:gap-11 justify-between mb-6">
                         <h2 class="text-2xl font-medium text-[#030712] text-opacity-50">A</h2>
-                        <button id="A1 "
+                        <button id="A1"
                             class="seat text-2xl btn font-medium text-[#030712] text-opacity-50 ">A1</button>
 
                         <button id="A2"
@@ -284,7 +285,7 @@
                         <button id="B2"
                             class=" seat text-2xl btn font-medium text-[#030712] text-opacity-50  lg:mr-20 ">B2</button>
 
-                        <button id="B3 "
+                        <button id="B3"
                             class=" seat text-2xl btn font-medium text-[#030712] text-opacity-50  lg:ml-20 ">B3</button>
 
                         <button id="B4"
@@ -312,31 +313,37 @@
                         <img src="images/Line1.png " alt="" class="mb-6">
                         <div class="rounded-xl bg-[#F7F8F8] p-5">
                             <div class="flex justify-between">
-                                <p class="text-[#030712] text-lg font-medium">Seat<span id="selected-seat"
+                                <p class="text-[rgb(3,7,18)] text-lg font-medium">Seat<span id="selected-seat"
                                         class="text-white bg-[#1DD100] text-lg font-medium">0</span></p>
                                 <p class="text-[#030712] text-lg font-medium">Class</p>
                                 <p class="text-[#030712] text-lg font-medium">Price</p>
 
+                            </div>
+                            <div class="flex justify-between">
+                                <div id="showSeatName"></div>
+                                <div id="Economy"></div>
+                                <div id="TicketPrice"></div>
+                                
                             </div>
 
                             <hr class="mt-10">
 
                             <div class="flex justify-between ">
                                 <h2 class="text-lg font-medium">Total Price</h2>
-                                <h2 class="text-lg font-medium">BDT <span>0000</span></h2>
+                                <h2 class="text-lg font-medium">BDT <span id="totalPrice">0000</span></h2>
                             </div>
 
                             <!-- cuppon input field -->
 
                             <label class="input input-bordered flex items-center justify-between gap-2 mt-5">
-                                <input type="text" class="grow" placeholder="Have any coupon?" />
-                                <button
+                                <input id="ApplyCoupne" type="text" class="grow" placeholder="Have any coupon?" />
+                                <button id="apply-coupne"
                                     class="btn text-white text-lg font-semibold bg-[#1DD100] rounded-xl ">Apply</button>
                             </label>
 
                             <div class="flex justify-between my-5 ">
                                 <h2 class="text-lg font-medium">Total Price</h2>
-                                <h2 class="text-lg font-medium">BDT <span>0000</span></h2>
+                                <h2 class="text-lg font-medium">BDT <span id="coupneDiscount">0000</span></h2>
                             </div>
 
                             <button
